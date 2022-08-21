@@ -40,6 +40,9 @@
 /*--------------------------
       Global Styles
 ---------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 html,
 body {
   overflow-x: hidden;
@@ -152,9 +155,15 @@ select {
   background-color: transparent;
 }
 
+
+
 /*----------------------------
       Helper Classes
 ----------------------------*/
+.reservation-iframe {
+  width: 100%;
+}
+
 .col-padding-0>.row {
   margin: 0;
 }
@@ -3307,12 +3316,12 @@ textarea.form-control {
 }
 
 .text-handwriting {
-  font-family: "Homemade Apple";
-  font-style: normal;
+  font-family: 'Satisfy', cursive;
+  font-style: oblique;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 26.4px;
-  font-size: 25px;
+  font-size: 40px;
   /* font-weight: 400; */
   margin-bottom: 0;
   color: #ffffff;
@@ -4050,7 +4059,7 @@ pre {
 }
 
 .feature-item .feature__title {
-  font-family: "Satisfy";
+  font-family: "Aboreto";
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 0;
@@ -6971,8 +6980,9 @@ pre {
 .reservation-layout2 .reservation-container .reservation__form {
   flex: 0 0 57%;
   max-width: 57%;
-  padding: 50px 40px;
+  padding: 50px 20px 10px 20px;
   margin: 0;
+  text-align: center;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
